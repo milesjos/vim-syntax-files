@@ -31,7 +31,7 @@ syntax keyword sparcMnemonicLogical  and andcc andn andcc or orcc orn orncc xnor
 
 syntax keyword sparcMnemonicArithmetic add addcc addx addxcc mulscc sdiv sdivcc smul smulcc udiv udivcc umul umulcc taddcc tsubcc taddcctv tsubcctv sub subcc subx subxcc
 
-syntax keyword sparcMnemonicBranch bn bne be bg ble bge bl bgu bleu bcc bcs bpos bneg bvc bvs ba call jmpl save restore rett jmp fbn fbu fbg fbug fbl fblg fbne fbe fbue fbge fbuge fble fbule fbo fba cbn cb3 cb2 cb23 cb1 cb13 cb12 cb123 cb0 cb03 cb02 cb023 cb01 cb013 cb012 cba
+syntax keyword sparcMnemonicBranch bn bne be bgt bg ble bge bl blt bgu bleu bcc bcs bpos bneg bvc bvs ba call jmpl save restore rett jmp fbn fbu fbg fbug fbl fblg fbne fbe fbue fbge fbuge fble fbule fbo fba cbn cb3 cb2 cb23 cb1 cb13 cb12 cb123 cb0 cb03 cb02 cb023 cb01 cb013 cb012 cba
 
 syntax keyword sparcMnemonicFPI fitos fitod fitoq fstoi fdtoi fstod fstoq fdtos fdtoq fqtod fqtos fmovs fnegs fabss fsqrts fsqrtd fsqrtq fadds faddd faddq fsubs fsubd fsubq fmuls fmuld fmulq fsmulq fdivs fdivd fdivq fcmps fcmpd fcmpq fcmpes fcmped fcmpeq
 
