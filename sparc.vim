@@ -7,7 +7,6 @@
 " Please note that there is still a little problem : I cannot get the '.' and
 " the ',a' sequences highlighted.
 " 
-" Maintainer : Nicolas Herry <k@madrognon.net>
 " Quit if syntax file already loaded and vim > 6.00
 if version < 600
     syntax clear
