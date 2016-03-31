@@ -1,5 +1,5 @@
 # vim-syntax-files
-Different syntax files for odd languages
+My Vim syntax files
 
 ##Languages
 * [Sparc V8 Assembly](https://github.com/milesjos/vim-syntax-files/blob/master/sparc.vim) (original can be found [here](http://vim.sourceforge.net/scripts/script.php?script_id=635))
