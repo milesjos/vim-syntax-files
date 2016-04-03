@@ -59,7 +59,6 @@ if !exists("did_sparc_syntax_inits")
 	highlight link sparcMnemonicSyn Conditional
 
 	highlight link sparcRegister Type
-	highlight link author Error
 endif
 
 let b:current_syntax="sparc"
