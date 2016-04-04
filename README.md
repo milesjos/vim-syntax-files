@@ -1,4 +1,5 @@
 ## Setup Guide by [Steven Kneiser](https://github.com/theshteves)
+####Edited by Josh Miles
 
 ### SPARC-specific syntax highlighting in Vim  
 
@@ -16,13 +17,13 @@ mkdir syntax
 cd syntax
 ```
 
-This is where vim seeks out custom syntax files  ...and is where we'll dump our **sparc.vim**:
+This is where vim seeks out custom syntax files and where we'll dump our **sparc.vim**:
 
 ```shell
 wget --no-check-certificate -O sparc.vim https://raw.githubusercontent.com/milesjos/vim-syntax-files/master/sparc.vim
 ```
 
-Here we grab the raw_text from a url and store it in the file, **sparc.vim**.  You could also copy it manually but that's for posers (Quote me on that).
+Here we grab the raw_text from a url and store it in the file, **sparc.vim**
 
 Now that we've added our custom syntax file, we can load it in vim whenever we want with a simple:
 
@@ -30,18 +31,7 @@ Now that we've added our custom syntax file, we can load it in vim whenever we w
 set ft=sparc
 ```
 
-Except we're better then that; we want it to load automatically based on the filetype we're editing.  Time to open up your **~/.vimrc**:
-
-> If you've never setup you're very own **.vimrc**, then you're in luck...
-> 
-> As part of my [Intro to Vim](https://github.com/theshteves/vim-workshop) workshop, I included a couple examples
-> as well as [a starter **.vimrc** with thorough comments JUST FOR YOU!](https://raw.githubusercontent.com/theshteves/vim-workshop/master/your.vim)
-
-```shell
-vim ~/.vimrc
-```
-
-Now just append these couple lines wherever there isn't a cluster of other settings, probably at the bottom:
+Add these lines to your **~/.vimrc** for automatic syntax highlighting:
 
 ```vim
 " Enable syntax highlighting
@@ -59,10 +49,10 @@ Congratulations, you should be all good to go!  The first line simply sets the f
 
 ## References & Further Reading
 
-* [Steven Kneiser's DOPE introduction to vim](https://github.com/theshteves/vim-workshop)
 * [Original sparc.vim](http://vim.sourceforge.net/scripts/script.php?script_id=635)
   * Changed format to Unix from DOS
   * Fixed numerous highlightings
 * [Vim syntax documentation](http://vimdoc.sourceforge.net/htmldoc/syntax.html)
 * [Sparc V8 Architecture Manual](http://www.gaisler.com/doc/sparcv8.pdf)
+* [Steven Kneiser's introduction to vim](https://github.com/theshteves/vim-workshop)
 
