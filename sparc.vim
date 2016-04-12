@@ -25,7 +25,7 @@ syntax region sparcString start=/"/ skip=/\\"/ end=/"/
 syntax match sparcNumber /[0-9]\+/
 
 
-syntax keyword sparcMnemonic flush ldsb ldsh ldstub ldub lduh ld ldd ldsba ldsha lduba lduha lda ldda ldstuba  nop rd sethi sll srl sra stb sth st std stba stha sta stda  swap swapa unimp wr btst bset bclr btog clr clrb clrh cmp dec deccc inc inccc mov set skipz skipnz tst ldn ldna stn stna setn setnhi casn slln srln sran clrn
+syntax keyword sparcMnemonic flush ldsb ldsh ldstub ldub lduh ld ldd lld ldsba ldsha lduba lduha lda ldda ldstuba  nop rd sethi sll srl sra stb sth st std stba stha sta stda  swap swapa unimp wr btst bset bclr btog clr clrb clrh cmp dec deccc inc inccc mov set skipz skipnz tst ldn ldna stn stna setn setnhi casn slln srln sran clrn
 
 syntax keyword sparcMnemonicLogical  and andcc andn andcc or orcc orn orncc xnor xnorcc xor xorcc negnot 
 
