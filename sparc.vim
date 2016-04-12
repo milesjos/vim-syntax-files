@@ -1,6 +1,6 @@
 " Vim syntax file for SPARC Assembler
 "
-" Revamped by Steven Kneiser:
+" Revamped by Steven Kneiser and Josh Miles:
 " https://github.com/theshteves
 "
 " Forked from Nicolas Herry:
