@@ -50,7 +50,7 @@ if !exists("did_sparc_syntax_inits")
 	highlight link sparcAsmDirective Preproc
 
 	highlight link sparcMnemonic Keyword
-	highlight link sparcMnemonicLogical Operator
+	highlight link sparcMnemonicLogical Statement
 	highlight link sparcMnemonicArithmetic Statement
 	highlight link sparcMnemonicBranch Keyword
 	highlight link sparcMnemonicTrap Keyword
